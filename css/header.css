@@ -1,0 +1,32 @@
+.header-nav {
+    background-color: var(--accent-color);
+}
+
+.header-nav-logo {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.header-nav-menu-item {
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-nav-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.header-nav-menu-item:hover {
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .header-nav {
+        display: flex;
+    }
+}
