@@ -10,3 +10,8 @@
     --main-color: black;
     --accent-color: rgb(50, 206, 211);
 }
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
